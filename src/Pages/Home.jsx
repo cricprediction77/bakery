@@ -93,7 +93,7 @@ const Home = () => {
 
         <div className="offer-box">
           <h2>Open Daily</h2>
-          <p>8 AM to 8 PM</p>
+          <p> - 8 AM to 8 PM -</p>
         </div>
       </section>
 

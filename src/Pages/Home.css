@@ -253,9 +253,20 @@ body {
   background: #a47148;
   color: #fff;
   border: none;
-  padding: 8px 20px;
-  border-radius: 20px;
+  padding: 10px 24px;      /* Slightly increased for better "breathing" room */
+  border-radius: 50px;     /* Fully rounded edges for a modern look */
   cursor: pointer;
+  
+  /* Typography updates */
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;        /* Makes the font nice and bold */
+  text-transform: uppercase; /* Optional: adds a premium, "call-to-action" feel */
+  letter-spacing: 0.5px;   /* Improves readability for bold text */
+  
+  /* Transition for smoothness */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* OFFERS */
@@ -272,6 +283,33 @@ body {
   border-radius: 20px;
   flex: 1;
   text-align: center;
+}
+
+.offer-box button {
+  background: #a47148;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;      /* Slightly increased for better "breathing" room */
+  border-radius: 50px;     /* Fully rounded edges for a modern look */
+  cursor: pointer;
+  
+  /* Typography updates */
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;        /* Makes the font nice and bold */
+  text-transform: uppercase; /* Optional: adds a premium, "call-to-action" feel */
+  letter-spacing: 0.5px;   /* Improves readability for bold text */
+  
+  /* Transition for smoothness */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect to make it attractive and interactive */
+.offer-box button:hover {
+  background: #8b5d3a;     /* Slightly darker shade on hover */
+  transform: translateY(-1px); /* Subtle lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .offer-box h2 {
